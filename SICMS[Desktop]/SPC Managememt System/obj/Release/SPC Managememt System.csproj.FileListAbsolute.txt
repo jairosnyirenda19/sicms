@@ -1,0 +1,8 @@
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\bin\Release\SPC Managememt System.exe.config
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\bin\Release\SPC Managememt System.exe
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\bin\Release\SPC Managememt System.pdb
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Release\SPC Managememt System.csprojResolveAssemblyReference.cache
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Release\SPC_Managememt_System.Properties.Resources.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Release\SPC Managememt System.csproj.GenerateResource.Cache
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Release\SPC Managememt System.exe
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Release\SPC Managememt System.pdb

@@ -1,0 +1,50 @@
+button
+{
+	outline: none;
+	border: none;
+	color: #fff;
+	background-color: rgb(57, 55, 72);
+	height: 40px;
+	width: 200px;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: background-color .5s;
+}
+
+button:hover
+{
+	background-color: rgb(27, 189, 54);
+}
+
+.echo-output
+{
+	font-size: 13pt;
+	font-weight: bold;
+	transition: all ease .3s;
+	text-transform: lowercase;
+}
+
+#btn-redirect
+{
+	display: block;
+	color: #fff;
+	background-color: rgb(57, 55, 72);
+	height: 40px;
+	width: 200px;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: background-color .5s;
+	padding: 8px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+#btn-redirect:hover
+{
+	background-color: rgb(27, 189, 54);
+}
+
+
+
+

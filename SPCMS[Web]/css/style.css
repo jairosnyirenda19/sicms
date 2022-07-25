@@ -1,0 +1,235 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 12pt;
+}
+html
+{
+	/*background-color: #444;*/
+		min-width: 360px;
+}
+
+header
+{
+	width: 100%;
+	position: relative;
+}
+
+nav
+{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(255,255,255,.9);
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	padding: 10px;
+}
+.logo
+{
+	float: left;
+	font-size: 14pt;
+}
+
+.logo a
+{
+	text-decoration: none;
+	color: #444;
+}
+.logo img
+{
+	width: 40px;
+	height: 40px;
+}
+
+.separator
+{
+	height: 40px;
+	width: 3px;
+	background-color: #444;
+	float: left;
+	margin-left: 20px;
+	margin-right: 8px;
+}
+
+.main-menu
+{
+	list-style-type: none;		
+}
+
+.main-menu li
+{
+	display: inline-block;
+	padding: 8px;
+	transition: all ease .5s;
+}
+
+.main-menu li a
+{
+	color: #444;
+	padding: 4px;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+.main-menu li:hover
+{
+}
+
+.menu-icon
+{
+	float: right;
+	background-color: rgba(69, 69, 69, .9);
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	padding: 7px 9px;
+	cursor: pointer;
+	border: dotted 1px rgb(27, 189, 54);
+	display: none;
+}
+
+.menu-icon i
+{
+	font-size: 18pt;
+}
+
+.landing-page
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/bckg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.landing-page .overlay
+{
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	background-color: rgba(255,255,255,.6);
+}
+
+.landing-page .overlay .content
+{
+	position: absolute;
+	transform: translateX(35%);
+	top: 30%;
+	width: 60%;
+	height: auto;
+	background-color: rgba(255,255,255,.9);
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.landing-page .overlay .content #btn
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	height: 35px;
+	width: 120px;
+	background-color: #444;
+	padding: 5px;
+	font-size: 12pt;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: background .5s;
+	margin: 10px;
+	border: 2px solid #444;
+	border-radius: 3px;
+}
+
+.landing-page .overlay .content #btn:hover
+{
+	background-color: transparent;
+	color: #444;	
+}
+
+.main-content
+{
+	margin-top: 20px;
+}
+
+
+#topBtn
+{	
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	width: 50px;
+	height: 50px;
+	background: rgba(27, 189, 54, .5);
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	transition: .3s all ease;
+	border-radius: 50%;
+	text-align: center;
+	display: none;			
+}
+
+#topBtn i
+{
+	font-size: 22px;
+	padding: 0;
+}
+
+#topBtn:hover
+{
+	background: rgba(27, 189, 54, .9);	
+}
+
+
+@media only screen and (max-width:768px)
+{
+	nav .separator
+	{
+		display: none;
+	}
+	nav .menu-icon
+	{
+		display: block;
+	}
+
+	nav .main-menu
+	{
+		position: absolute;
+		background-color: rgba(255,255,255,.9);
+		width: 100%;
+		height: 100vh;
+		top: 60px;
+		left: 120%;
+		transition: left .5s ease;		
+	}
+
+	.main-menu.visible
+	{
+		left: 0;
+		transition: left .5s ease;
+	}
+
+	nav .main-menu li
+	{
+		display: block;
+	}
+
+	nav .main-menu li a
+	{
+		display: block;
+		width: 100%;
+		height: 45px;
+		padding: 10px;
+		transition: background .5s
+	}
+
+	nav .main-menu li a:hover
+	{
+		background-color: #444;
+		color: #fff;		
+	}		
+}

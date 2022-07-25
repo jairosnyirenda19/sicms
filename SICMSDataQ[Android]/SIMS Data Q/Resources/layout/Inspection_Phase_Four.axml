@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Field Inspection"
+            android:padding="6dp"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="View Sowing Report"
+            android:padding="6dp"
+            android:textColor="#F03947"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:id="@+id/TextLinkSowingReportPhaseFour"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Jairos Nyirenda"
+            android:padding="6dp"
+            android:textColor="#212121"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:id="@+id/TextClientNameInspectionPhaseFour" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Maize - Zea Mays"
+            android:padding="6dp"
+            android:textColor="#212121"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:id="@+id/TextCropNameInspectionPhaseFour" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="INSPECTION DETAILS"
+                android:padding="6dp"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Verification of the maturity of the crop"
+            android:textColor="#007ACC"
+            android:paddingLeft="10dp"
+            android:textSize="13pt" />
+        <CheckBox
+            android:text="Verify Maturity"
+            android:textColor="#212121"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/ChkVerifyMaturity" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="REMARKS"
+            android:textColor="#424242"
+            android:paddingLeft="10dp"
+            android:textSize="13pt" />
+        <EditText
+            android:id="@+id/TextInspectorRemarksPhaseFour"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:hint="Enter Remarks here..."
+            android:background="@android:color/darker_gray"
+            android:textColorHint="#E1E1E1"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            android:padding="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <Button
+            android:text="FINISH"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="#F7AA0C"
+            android:id="@+id/btnSavePhaseFourInspection"
+            android:gravity="center"
+            android:layout_gravity="right" />
+    </LinearLayout>
+</LinearLayout>

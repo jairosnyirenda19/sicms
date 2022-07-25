@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation>v22</xs:documentation>
+    <xs:documentation>03/24/2020 3:13:30 PM</xs:documentation>
+  </xs:annotation>
+  <xs:attribute name="alignmentMode">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="alignBounds" />
+            <xs:enumeration value="alignMargins" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="columnCount">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@android:integer/config_longAnimTime" />
+            <xs:enumeration value="@android:integer/config_mediumAnimTime" />
+            <xs:enumeration value="@android:integer/config_shortAnimTime" />
+            <xs:enumeration value="@android:integer/status_bar_notification_info_maxnum" />
+            <xs:enumeration value="?android:attr/windowTransitionBackgroundFadeDuration" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="columnOrderPreserved">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="false" />
+            <xs:enumeration value="true" />
+            <xs:enumeration value="?android:attr/alertDialogCenterButtons" />
+            <xs:enumeration value="?android:attr/backgroundDimEnabled" />
+            <xs:enumeration value="?android:attr/panelMenuIsCompact" />
+            <xs:enumeration value="?android:attr/windowActionBar" />
+            <xs:enumeration value="?android:attr/windowActionBarOverlay" />
+            <xs:enumeration value="?android:attr/windowActionModeOverlay" />
+            <xs:enumeration value="?android:attr/windowActivityTransitions" />
+            <xs:enumeration value="?android:attr/windowAllowEnterTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowAllowReturnTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowCloseOnTouchOutside" />
+            <xs:enumeration value="?android:attr/windowContentTransitions" />
+            <xs:enumeration value="?android:attr/windowDisablePreview" />
+            <xs:enumeration value="?android:attr/windowEnableSplitTouch" />
+            <xs:enumeration value="?android:attr/windowFullscreen" />
+            <xs:enumeration value="?android:attr/windowIsFloating" />
+            <xs:enumeration value="?android:attr/windowIsTranslucent" />
+            <xs:enumeration value="?android:attr/windowNoDisplay" />
+            <xs:enumeration value="?android:attr/windowNoTitle" />
+            <xs:enumeration value="?android:attr/windowOverscan" />
+            <xs:enumeration value="?android:attr/windowSharedElementsUseOverlay" />
+            <xs:enumeration value="?android:attr/windowShowWallpaper" />
+            <xs:enumeration value="?android:attr/windowSwipeToDismiss" />
+            <xs:enumeration value="?android:attr/windowTranslucentNavigation" />
+            <xs:enumeration value="?android:attr/windowTranslucentStatus" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="orientation">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="horizontal" />
+            <xs:enumeration value="vertical" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="rowCount">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@android:integer/config_longAnimTime" />
+            <xs:enumeration value="@android:integer/config_mediumAnimTime" />
+            <xs:enumeration value="@android:integer/config_shortAnimTime" />
+            <xs:enumeration value="@android:integer/status_bar_notification_info_maxnum" />
+            <xs:enumeration value="?android:attr/windowTransitionBackgroundFadeDuration" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="rowOrderPreserved">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="false" />
+            <xs:enumeration value="true" />
+            <xs:enumeration value="?android:attr/alertDialogCenterButtons" />
+            <xs:enumeration value="?android:attr/backgroundDimEnabled" />
+            <xs:enumeration value="?android:attr/panelMenuIsCompact" />
+            <xs:enumeration value="?android:attr/windowActionBar" />
+            <xs:enumeration value="?android:attr/windowActionBarOverlay" />
+            <xs:enumeration value="?android:attr/windowActionModeOverlay" />
+            <xs:enumeration value="?android:attr/windowActivityTransitions" />
+            <xs:enumeration value="?android:attr/windowAllowEnterTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowAllowReturnTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowCloseOnTouchOutside" />
+            <xs:enumeration value="?android:attr/windowContentTransitions" />
+            <xs:enumeration value="?android:attr/windowDisablePreview" />
+            <xs:enumeration value="?android:attr/windowEnableSplitTouch" />
+            <xs:enumeration value="?android:attr/windowFullscreen" />
+            <xs:enumeration value="?android:attr/windowIsFloating" />
+            <xs:enumeration value="?android:attr/windowIsTranslucent" />
+            <xs:enumeration value="?android:attr/windowNoDisplay" />
+            <xs:enumeration value="?android:attr/windowNoTitle" />
+            <xs:enumeration value="?android:attr/windowOverscan" />
+            <xs:enumeration value="?android:attr/windowSharedElementsUseOverlay" />
+            <xs:enumeration value="?android:attr/windowShowWallpaper" />
+            <xs:enumeration value="?android:attr/windowSwipeToDismiss" />
+            <xs:enumeration value="?android:attr/windowTranslucentNavigation" />
+            <xs:enumeration value="?android:attr/windowTranslucentStatus" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="useDefaultMargins">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="false" />
+            <xs:enumeration value="true" />
+            <xs:enumeration value="?android:attr/alertDialogCenterButtons" />
+            <xs:enumeration value="?android:attr/backgroundDimEnabled" />
+            <xs:enumeration value="?android:attr/panelMenuIsCompact" />
+            <xs:enumeration value="?android:attr/windowActionBar" />
+            <xs:enumeration value="?android:attr/windowActionBarOverlay" />
+            <xs:enumeration value="?android:attr/windowActionModeOverlay" />
+            <xs:enumeration value="?android:attr/windowActivityTransitions" />
+            <xs:enumeration value="?android:attr/windowAllowEnterTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowAllowReturnTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowCloseOnTouchOutside" />
+            <xs:enumeration value="?android:attr/windowContentTransitions" />
+            <xs:enumeration value="?android:attr/windowDisablePreview" />
+            <xs:enumeration value="?android:attr/windowEnableSplitTouch" />
+            <xs:enumeration value="?android:attr/windowFullscreen" />
+            <xs:enumeration value="?android:attr/windowIsFloating" />
+            <xs:enumeration value="?android:attr/windowIsTranslucent" />
+            <xs:enumeration value="?android:attr/windowNoDisplay" />
+            <xs:enumeration value="?android:attr/windowNoTitle" />
+            <xs:enumeration value="?android:attr/windowOverscan" />
+            <xs:enumeration value="?android:attr/windowSharedElementsUseOverlay" />
+            <xs:enumeration value="?android:attr/windowShowWallpaper" />
+            <xs:enumeration value="?android:attr/windowSwipeToDismiss" />
+            <xs:enumeration value="?android:attr/windowTranslucentNavigation" />
+            <xs:enumeration value="?android:attr/windowTranslucentStatus" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>

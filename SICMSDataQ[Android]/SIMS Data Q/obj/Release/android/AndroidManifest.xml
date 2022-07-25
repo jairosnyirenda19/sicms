@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="SIMS.SIMS" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="SICMS Data Q" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:icon="@drawable/icon" android:label="Clients" android:name="md5b080076c043d17ef8c140089175c7b0c.Clients" />
+    <activity android:icon="@drawable/icon" android:label="SIMS Data Q" android:name="md5b080076c043d17ef8c140089175c7b0c.Home" />
+    <activity android:icon="@drawable/icon" android:label="SPCMS Image View" android:name="md5b080076c043d17ef8c140089175c7b0c.ImageViewer_View" />
+    <activity android:icon="@drawable/icon" android:label="Inspections" android:name="md5b080076c043d17ef8c140089175c7b0c.Inspection" />
+    <activity android:icon="@drawable/icon" android:label="Harvest Stage" android:name="md5b080076c043d17ef8c140089175c7b0c.Inspection_Phase_Four" />
+    <activity android:icon="@drawable/icon" android:label="Pre Flowering Stage" android:name="md5b080076c043d17ef8c140089175c7b0c.Inspection_Phase_One" />
+    <activity android:icon="@drawable/icon" android:label="Post Flowering Stage" android:name="md5b080076c043d17ef8c140089175c7b0c.Inspection_Phase_Three" />
+    <activity android:icon="@drawable/icon" android:label="Flowering Stage" android:name="md5b080076c043d17ef8c140089175c7b0c.Inspection_Phase_Two" />
+    <activity android:icon="@drawable/icon" android:label="SIMS" android:name="md5b080076c043d17ef8c140089175c7b0c.SignIn">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/icon" android:label="Available Sowing Report" android:name="md5b080076c043d17ef8c140089175c7b0c.SowingReport_on_client" />
+    <activity android:icon="@drawable/icon" android:label="Options" android:name="md5b080076c043d17ef8c140089175c7b0c.Sowing_Inspection_Options" />
+    <activity android:icon="@drawable/icon" android:label="Sowing Report (1)" android:name="md5b080076c043d17ef8c140089175c7b0c.Sowing_Report_Page" />
+    <activity android:icon="@drawable/icon" android:label="Start" android:name="md5b080076c043d17ef8c140089175c7b0c.Start" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="SIMS.SIMS.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

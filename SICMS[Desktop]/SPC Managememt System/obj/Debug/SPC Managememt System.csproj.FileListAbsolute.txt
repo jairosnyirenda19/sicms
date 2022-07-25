@@ -1,0 +1,47 @@
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC Managememt System.csprojAssemblyReference.cache
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Clients_Interface.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Directory.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Edit.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.ImagePreview.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Inspection_pre_flowing_stage.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.KpImageViewer.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.ListSowingReport.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.PanelDoubleBuffered.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Seeds_Interface.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Sowing_Report.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Sowing_Report_Controls.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Sowing_Report_Page.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Standard_Interface.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System._Home.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Properties.Resources.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System._standard_seed_propagation.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC Managememt System.csproj.GenerateResource.cache
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC Managememt System.csproj.CoreCompileInputs.cache
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\bin\Debug\SPC Managememt System.exe.config
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\bin\Debug\SPC Managememt System.exe
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\bin\Debug\SPC Managememt System.pdb
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC Managememt System.csproj.CopyComplete
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC Managememt System.exe
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC Managememt System.pdb
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Inspection_flowing_stage.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Authentication.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Inspection_harvest_stage.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Inspection_post_flowering_stage.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.WaitFormDialog.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Issues_Page.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.InspectionList.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Requested_Inspection.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.DeclineRequest.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Request_Accepted.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Request_Pending.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.SetAppointment.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.SIO_Card.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Payment.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.SIOs.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.PAY_Card.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Settings.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.FirstSignUp.resources
+D:\ROLEX#$\SPC Managememt System\SPC Managememt System\obj\Debug\SPC_Managememt_System.Loading.resources
+C:\Users\JJ Nyirenda\Documents\L5DC 2019\Jairos_Nyirenda_L5DC_00183182\00183182 Jairos Nyirenda - Computing Project\SICMS - Desktop\SICMS - Desktop\SPC Managememt System\bin\Debug\SPC Managememt System.exe.config
+C:\Users\JJ Nyirenda\Documents\L5DC 2019\Jairos_Nyirenda_L5DC_00183182\00183182 Jairos Nyirenda - Computing Project\SICMS - Desktop\SICMS - Desktop\SPC Managememt System\obj\Debug\SPC Managememt System.exe
+C:\Users\JJ Nyirenda\Documents\L5DC 2019\Jairos_Nyirenda_L5DC_00183182\00183182 Jairos Nyirenda - Computing Project\SICMS - Desktop\SICMS - Desktop\SPC Managememt System\obj\Debug\SPC Managememt System.pdb

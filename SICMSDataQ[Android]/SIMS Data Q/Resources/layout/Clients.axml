@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:weightSum="100">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="#35B27B"
+        android:fadingEdge="horizontal"
+        android:requiresFadingEdge="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="Available Client(s)"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:padding="5dp" />
+    </RelativeLayout>
+    <ListView
+        android:layout_weight="85"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/AllClientsListView" />
+</LinearLayout>

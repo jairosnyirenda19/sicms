@@ -1,0 +1,18 @@
+::-webkit-scrollbar
+{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+	background-color: #fcfcfc;
+}
+
+::-webkit-scrollbar-thumb
+{
+	/*background-image: radial-gradient(circle, #01ff7a, #91da00, #c7ae00, #ec7500, #ff0000);
+	*/
+	background-color: rgb(52, 61, 70);
+	border-radius: 5px;
+}
+
